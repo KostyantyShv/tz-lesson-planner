@@ -1,13 +1,13 @@
 import Layout from "../components/Layout";
 import LessonPlannerConrolPanel from "../components/LessonPlannerConrolPanel";
-import LessonPlannerContent from "../components/LessonPlannerContent";
+import LessonPlannerForm from "../components/LessonPlannerForm";
 
 const LessonPlannerPages = () => {
   return (
     <Layout>
       <div className="w-full max-w-2xl">
         <LessonPlannerConrolPanel />
-        <LessonPlannerContent />
+        <LessonPlannerForm />
       </div>
     </Layout>
   );
